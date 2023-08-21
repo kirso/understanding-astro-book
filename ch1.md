@@ -1942,7 +1942,7 @@ Equally update the layout markup to render the image, title and subtitle:
 
 ```astro
 <!-- 📂 src/layouts/Blog.astro -->
-<main>
+<Main>
   <figure class="figure">
     <img
       src={poster}
@@ -1960,7 +1960,7 @@ Equally update the layout markup to render the image, title and subtitle:
   <h2>{subtitle}</h2>
 
   <slot />
-</main>
+</Main>
 
 <style>
   h1 + h2 {
